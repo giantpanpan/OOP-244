@@ -3,10 +3,10 @@
  
 namespace racing {
 	class Engine {
-		char* m_pModel;
+		char* m_pModel; //a pointer which stores a string
 		short m_hp;
 	public:
-		void setEmpty();
+		void setEmpty(); 
 		void set(const  char* pModel, short hp);
 		void display() const; //queries, don't change data attributes
 	};
