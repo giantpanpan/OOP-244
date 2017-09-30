@@ -12,7 +12,7 @@ namespace safety {
 	{
 		if (nullptr != m_pColor) 
 		{
-			cout << "The color of the firetruck is: " << *m_pColor << endl;
+			cout << "The color of the firetruck is: " << m_pColor << endl;
 			cout << "Water capacity is: " << m_waterCap << endl;
 		}
 	}
@@ -25,11 +25,11 @@ namespace safety {
 	Firetruck::Firetruck(short cap, const char *pCal)
 	{
 		m_waterCap = cap;
-		m_pColor = new char[strlen(pCal + 1)];
+		m_pColor = new char[strlen(pCal)+1];
 	}
 	Firetruck::~Firetruck()
 	{
 		delete[] m_pColor;
-		//m_pColor = nullptr;
+		m_pColor = nullptr;
 	}
 }
