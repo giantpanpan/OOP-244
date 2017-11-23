@@ -196,7 +196,7 @@ namespace sict {
 	std::istream& Date::read(std::istream& istr)
 	{
 		istr >> this->d_year;
-		if (istr.get() != '/')
+		if (istr.get() != '/')                                            //get the char remain in the buffer
 		{
 			this->error_state = CIN_FAILED;
 			return istr;
