@@ -6,7 +6,7 @@
 //
 // Revision History
 // -----------------------------------------------------------
-// Name  Wang Pan             Date   2017/12/02              Reason
+// Name             Date       Reason
 #ifndef SICT_ERRORMESSAGE_H
 #define SICT_ERRORMESSAGE_H
 
