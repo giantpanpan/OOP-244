@@ -10,7 +10,7 @@
 // Revision History
 // -----------------------------------------------------------
 // Name               Date                 Reason
-// Chris              2017-12-02           Streamable -> Product
+//
 /////////////////////////////////////////////////////////////////
 #include <iostream>
 #include <fstream>
