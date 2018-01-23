@@ -1,0 +1,80 @@
+Script started on Tue 12 Dec 2017 10:57:31 PM EST
+fardad.soleimanloo@matrix:~/oop244/DEV/FinalProject/DEV/OOP-Milestone4> ms4
+Empty Product:
+
+u("4321", "Rice"):
+4321: Rice, quantity: 0, quantity needed:0, Cost: 0.00
+Please enter the following information:
+ Sku: 1234
+ Name(no spaces) : Blanket
+ Quantity : 12
+ Quantity Needed : 23
+ Is taxed ? (1 / 0) : 1
+ Price : 12.34
+
+Enter Product Info: 
+ Sku: 1234
+ Name (no spaces): Blanket
+ Quantity: 12
+ Quantity Needed: 23
+ Is taxed? (1/0): 1
+ Price: 12.34
+
+Testing:
+ s.store(): 
+  s: 1234: Blanket, quantity: 12, quantity needed:23, Cost: 13.94
+ t.load(): 
+  t: 1234: Blanket, quantity: 12, quantity needed:23, Cost: 13.94
+ X(const X&): X v = s
+  v: 1234: Blanket, quantity: 12, quantity needed:23, Cost: 13.94
+  s: 1234: Blanket, quantity: 12, quantity needed:23, Cost: 13.94
+ X& operator=(const X&): u = t
+  t: 1234: Blanket, quantity: 12, quantity needed:23, Cost: 13.94
+  u: 1234: Blanket, quantity: 12, quantity needed:23, Cost: 13.94
+ bool operator==(const char*) const: OK
+ int operator+=(int): u += 10 
+  u: 1234: Blanket, quantity: 12, quantity needed:23, Cost: 13.94
+  u: 1234: Blanket, quantity: 22, quantity needed:23, Cost: 13.94
+ double operator+=(double&, const Product&) : 200 += u
+  ?:506.77 = 506.77
+
+Please enter the following information:
+ Sku: 1234
+ Name(no spaces) : Jacket
+ Quantity : 12
+ Quantity Needed : 23
+ Is taxed ? (1 / 0) : 0
+ Price : 12.34
+
+Enter Product Info: 
+ Sku: 1234
+ Name (no spaces): Jacket
+ Quantity: 12
+ Quantity Needed: 23
+ Is taxed? (1/0): 0
+ Price: 12.34
+
+Testing:
+ s.store(): 
+  s: 1234: Jacket, quantity: 12, quantity needed:23, Cost: 12.34
+ t.load(): 
+  t: 1234: Jacket, quantity: 12, quantity needed:23, Cost: 12.34
+ X(const X&): X v = s
+  v: 1234: Jacket, quantity: 12, quantity needed:23, Cost: 12.34
+  s: 1234: Jacket, quantity: 12, quantity needed:23, Cost: 12.34
+ X& operator=(const X&): u = t
+  t: 1234: Jacket, quantity: 12, quantity needed:23, Cost: 12.34
+  u: 1234: Jacket, quantity: 12, quantity needed:23, Cost: 12.34
+ bool operator==(const char*) const: OK
+ int operator+=(int): u += 10 
+  u: 1234: Jacket, quantity: 12, quantity needed:23, Cost: 12.34
+  u: 1234: Jacket, quantity: 22, quantity needed:23, Cost: 12.34
+ double operator+=(double&, const Product&) : 200 += u
+  ?:471.48 = 471.48
+
+1234	Jacket	12	23	0	12.34
+----The End
+fardad.soleimanloo@matrix:~/oop244/DEV/FinalProject/DEV/OOP-Milestone4> exit
+exit
+
+Script done on Tue 12 Dec 2017 10:58:03 PM EST
