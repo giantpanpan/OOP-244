@@ -1,2 +1,3 @@
 # OOP-244
-#some parctices of OOP programs using C++
+#Includng some parctices of OOP programs using C++
+#And the final project of this course
