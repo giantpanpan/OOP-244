@@ -5,7 +5,7 @@
 //
 // Revision History
 // -----------------------------------------------------------
-// Name  Wang Pan            Date    2017/12/02             Reason
+// 
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <cstring>
