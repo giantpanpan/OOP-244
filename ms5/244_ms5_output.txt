@@ -1,0 +1,207 @@
+Script started on Wed 20 Dec 2017 01:57:53 PM EST
+fardad.soleimanloo@matrix:~/oop244/DEV/FinalProject/DEV/OOP-Milestone5> ms5
+--Product test:
+----Taxed validation test:
+Enter the following: 
+Sku: abc
+Name: abc
+Unit: abc
+Taxed: a
+
+ Sku: abc
+ Name: abc
+ Unit: abc
+ Taxed? (y/n): a
+Passed!
+Message should be:  Only (Y)es or (N)o are acceptable
+Your Error message: Only (Y)es or (N)o are acceptable
+**** Press enter to continue ... 
+
+----Price validation test:
+Enter the following: 
+Sku: abc
+Name: abc
+Unit: abc
+Taxed: y
+Price: abc
+
+ Sku: abc
+ Name: abc
+ Unit: abc
+ Taxed? (y/n): y
+ Price: abc
+Passed!
+Message should be:  Invalid Price Entry
+Your Error message: Invalid Price Entry
+**** Press enter to continue ... 
+
+----Quantity validation test:
+Enter the following: 
+Sku: abc
+Name: abc
+Unit: abc
+Taxed: y
+Price: 10
+Quantity on hand: abc
+
+ Sku: abc
+ Name: abc
+ Unit: abc
+ Taxed? (y/n): y
+ Price: 10
+Quantity On hand: abc
+Passed!
+Message should be:  Invalid Quantity Entry
+Your Error message: Invalid Quantity Entry
+**** Press enter to continue ... 
+
+----Quantity Needed validation test:
+Enter the following: 
+Sku: abc
+Name: abc
+Unit: abc
+Taxed: y
+Price: 10
+Quantity on hand: 10
+Quantity needed: abc
+
+ Sku: abc
+ Name: abc
+ Unit: abc
+ Taxed? (y/n): y
+ Price: 10
+Quantity On hand: 10
+Quantity Needed: abc
+Passed!
+Message should be:  Invalid Quantity Needed Entry
+Your Error message: Invalid Quantity Needed Entry
+**** Press enter to continue ... 
+
+----Display test, the output of the Program and yours must match:
+Enter the following: 
+Sku: 1234
+Name: box
+Unit: kg
+Taxed: y
+Price: 123.45
+Quantity on hand: 1
+Quantity needed: 5
+
+ Sku: 1234
+ Name: box
+ Unit: kg
+ Taxed? (y/n): y
+ Price: 123.45
+Quantity On hand: 1
+Quantity Needed: 5
+--Linear------------
+Program: 1234   |box                 | 139.50|   1|kg        |   5|
+  Yours: 1234   |box                 | 139.50|   1|kg        |   5|
+--Form Display------
+--Program: 
+Sku: 1234
+Name : box
+Price : 123.45
+Price after tax : 139.50
+Quantity On Hand : 1 kg
+Quantity Needed : 5
+--Yours: 
+Sku: 1234
+Name: box
+Price: 123.45
+Price after tax: 139.50
+Quantity On Hand: 1 kg
+Quantity Needed: 5
+**** Press enter to continue ... 
+
+----Storage and loading test, the output of the Program and yours must match:
+--Store AmaProduct, program: 
+N,1234,box,123.45,1,1,kg,5
+N,1234,box,123.45,1,1,kg,5
+--Store Product, yours: 
+N,1234,box,123.45,1,1,kg,5
+N,1234,box,123.45,1,1,kg,5
+--Load Product: 
+Program: 1234   |box                 | 139.50|   1|kg        |   5|
+  Yours: 1234   |box                 | 139.50|   1|kg        |   5|
+
+--Perishable Item test:
+----Expiry date Validation test:
+Enter the following: 
+Sku: abc
+Name: abc
+Unit: abc
+Taxed: n
+Price: 10
+Quantity on hand: 10
+Quantity needed: 10
+Expiry date: 10/1/1
+
+ Sku: abc
+ Name: abc
+ Unit: abc
+ Taxed? (y/n): n
+ Price: 10
+Quantity On hand: 10
+Quantity Needed: 10
+Expiry date (YYYY/MM/DD): 10/1/1
+Passed!
+Message should be:  Invalid Year in Date Entry
+Your Error message: Invalid Year in Date Entry
+**** Press enter to continue ... 
+
+----Display test, the output of the Program and yours must match:
+Enter the following: 
+Sku: 1234
+Name: water
+Unit: liter
+Taxed: n
+Price: 1.5
+Quantity on hand: 1
+Quantity needed: 5
+Expiry date: 2017/10/12
+
+ Sku: 1234
+ Name: water
+ Unit: liter
+ Taxed? (y/n): n
+ Price: 1.5
+Quantity On hand: 1
+Quantity Needed: 5
+Expiry date (YYYY/MM/DD): 2017/10/12
+--Linear------------
+Program: 1234   |water               |   1.50|   1|liter     |   5|2017/10/12
+  Yours: 1234   |water               |   1.50|   1|liter     |   5|2017/10/12
+--Form Display------
+--Program: 
+Sku: 1234
+Name : water
+Price : 1.50
+Price after tax : N/A
+Quantity On Hand : 1 liter
+Quantity Needed : 5
+Expiry date : 2017/10/12
+--Yours: 
+Sku: 1234
+Name: water
+Price: 1.50
+Price after tax: N/A
+Quantity On Hand: 1 liter
+Quantity Needed: 5
+Expiry date: 2017/10/12
+**** Press enter to continue ... 
+
+----Storage and loading test, the output of the Program and yours must match:
+--Store Perishable, program: 
+P,1234,water,1.5,0,1,liter,5,2017/10/12
+P,1234,water,1.5,0,1,liter,5,2017/10/12
+--Store Product, yours: 
+P,1234,water,1.5,0,1,liter,5,2017/10/12
+P,1234,water,1.5,0,1,liter,5,2017/10/12
+--Load Perishable: 
+Program: 1234   |water               |   1.50|   1|liter     |   5|2017/10/12
+  Yours: 1234   |water               |   1.50|   1|liter     |   5|2017/10/12
+fardad.soleimanloo@matrix:~/oop244/DEV/FinalProject/DEV/OOP-Milestone5> exit
+exit
+
+Script done on Wed 20 Dec 2017 02:02:28 PM EST
