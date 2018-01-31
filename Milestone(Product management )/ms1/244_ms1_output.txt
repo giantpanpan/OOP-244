@@ -1,0 +1,58 @@
+Script started on Sun 15 Oct 2017 09:16:26 PM EDT
+fardad.soleimanloo@matrix:~/oop244/DEV/FinalProject/DEV/OOP-Milestone1> ms1
+Checking defined and constant values: 
+Passed!
+Checking define values for error code in Data.h
+Passed!
+Testing the Date() constructor and the operator << overload; 
+Are these two dates the same? (regardless of format)
+1- 0/00/00
+2- 0/00/00
+(y)es/(n)o: y
+Passed!
+Testing Date(int, int, int) constructor and operator>> overload; 
+Enter the following date, 2018/10/18
+>2018/10/18
+Passed!
+Testing the logical operators: 
+Testing operator==
+passed!
+Testing operator>=
+passed!
+Testing operator<=
+passed!
+Testing operator!=
+passed!
+Testing operator<
+passed!
+Testing operator>
+passed!
+Testing operator<=
+passed!
+Testing operator>=
+passed!
+Testing error handling in read function;
+Testing cin failure detection, 
+Please enter the following string "abcd": abcd
+passed!
+Testing year validation, 
+Please enter the following string "10/1/1": 10/1/1
+You entered: 0/00/00
+passed!
+Testing month validation, 
+Please enter the following string "2000/13/1": 2000/13/1
+You entered: 0/00/00
+Passed
+Testing day validation, 
+Please enter the following string "2000/1/50": 2000/1/50
+You entered: 0/00/00
+Passed!
+Testing day validation, leap year:
+Please enter the following string "2016/2/29": 2016/2/29
+You entered: 2016/02/29
+passed!
+You passed all the tests!
+fardad.soleimanloo@matrix:~/oop244/DEV/FinalProject/DEV/OOP-Milestone1> exit
+exit
+
+Script done on Sun 15 Oct 2017 09:17:57 PM EDT
